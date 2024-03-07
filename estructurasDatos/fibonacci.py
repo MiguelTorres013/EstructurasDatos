@@ -1,0 +1,10 @@
+def fib(n):
+    if n < 2:
+        return n
+    else:
+        return fib(n-1)+fib(n-2)
+
+fib(8)
+
+print(fib("La sucesion es:"))
+
